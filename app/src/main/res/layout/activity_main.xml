@@ -58,4 +58,35 @@
         android:text="Borrar"
         app:layout_constraintStart_toStartOf="@+id/buttonCargar"
         app:layout_constraintTop_toBottomOf="@+id/buttonCargar" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="28dp"
+        android:text="Switch"
+        app:layout_constraintStart_toStartOf="@+id/buttonBorrar"
+        app:layout_constraintTop_toBottomOf="@+id/buttonBorrar" />
+
+    <Button
+        android:id="@+id/buttonHora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Seleccione hora"
+        app:layout_constraintBaseline_toBaselineOf="@+id/buttonGuardar"
+        app:layout_constraintStart_toEndOf="@+id/buttonGuardar" />
+
+    <TextView
+        android:id="@+id/textViewHora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="31dp"
+        android:text="Hora"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/switch1"
+        app:layout_constraintTop_toBottomOf="@+id/switch1" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
